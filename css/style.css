@@ -22,26 +22,79 @@ head , img{
     display: inline-block;
     vertical-align: top;
     height: 80px;
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     
 }
 
 .container1{
-    height: 50px;
+    height: 80px;
     width: 80%;
     margin: 50px auto;
+    margin-bottom: 5px;
     background-color: white;
 }
 
 .button1{
-    margin-left: 20px;
-    margin-top: 15px;
-    background-color: blue;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: #47adf1;
     padding: 10px;
     border-radius: 10px;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.button2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: lightgray;
+    border: 1px solid lightgray;
+    margin-left: 5px;
+}
+
+.container2{
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 50px;
 }
 
 
-    
+
+ul{
+    list-style: none;
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+}
+
+.checkmark{
+    display: inline-block;
+    color: green;
+    border: 1px solid green;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.xmark{
+    color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+li{
+    margin-top: 20px;
+}
+
+.section-space{
+    margin-top: 50px;
+}
+
