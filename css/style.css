@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: lightgrey;
+    background-color: #f6f8f9;
 }
 
 .head{
@@ -32,8 +32,9 @@ head , img{
     height: 80px;
     width: 80%;
     margin: 50px auto;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     background-color: white;
+    border-radius: 10px 0;
 }
 
 .button1{
@@ -63,6 +64,7 @@ head , img{
     margin: auto;
     background-color: white;
     padding: 50px;
+    border-radius: 0 10px;
 }
 
 
@@ -71,11 +73,10 @@ ul{
     list-style: none;
     margin-top: 20px;
     color: grey;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .checkmark{
-    display: inline-block;
     color: green;
     border: 1px solid green;
     border-radius: 100%;
@@ -96,5 +97,64 @@ li{
 
 .section-space{
     margin-top: 50px;
+}
+
+.editorial{
+    display: inline-block;
+    background-color:#47adf1;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+
+}
+
+.q1-goals{
+    display: inline-block;
+    background-color: #9c72e4;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.recruiting{
+    display: inline-block;
+    background-color: #64c0a9;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.mobile{
+    display: inline-block;
+    background-color: #f29e33;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.website{
+    display: inline-block;
+    background-color: #d863a1;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+
+}
+
+.sales{
+    display: inline-block;
+    background-color: #b0c926;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+
+
+
 }
 
