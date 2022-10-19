@@ -23,7 +23,6 @@ body{
     
 
 .title{
-    display: inline-block;
     vertical-align: middle;
     font-size: 45px;
     font-family: 'Roboto', sans-serif;
@@ -34,6 +33,7 @@ body{
     height: 60px;
     width: 80%;
     margin: 50px auto;
+    padding: 10px 80px;
     margin-bottom: 2px;
     background-color: white;
     border-top-left-radius: 5px;
@@ -41,8 +41,6 @@ body{
 }
 
 .button1{
-    margin-left: 100px;
-    margin-top: 13px;
     background-color: #47adf1;
     padding: 10px;
     border-radius: 10px;
@@ -76,8 +74,6 @@ body{
 
 ul{
     list-style: none;
-    margin-top: 20px;
-    color: grey;
     font-size: 15px;
 }
 
@@ -97,7 +93,7 @@ ul{
 }
 
 li{
-    margin-top: 20px;
+    padding: 15px;
 }
 
 
