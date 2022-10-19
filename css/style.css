@@ -10,15 +10,14 @@ body{
 
 .head{
     background-color: white;
-    height: 80px;
+    height: 100px;
 }
 
 .logo{
-    display: inline-block;
     vertical-align: middle;
-    margin-top: 10px;
-    margin-left: 20px;
-
+    padding: 10px 25px;
+    height: 100%;
+    
 }
     
     
@@ -26,9 +25,8 @@ body{
 .title{
     display: inline-block;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 50px;
     font-family: 'Roboto', sans-serif;
-    margin-top: 15px;;
     
 }
 
