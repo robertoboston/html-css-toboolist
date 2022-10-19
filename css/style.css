@@ -33,7 +33,7 @@ body{
 }
 
 .container1{
-    height: 80px;
+    height: 60px;
     width: 80%;
     margin: 50px auto;
     margin-bottom: 2px;
@@ -44,13 +44,14 @@ body{
 
 .button1{
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 13px;
     background-color: #47adf1;
     padding: 10px;
     border-radius: 10px;
     border-style: none;
     font-family: 'Roboto', sans-serif;
     color: white;
+
 }
 
 .button2{
