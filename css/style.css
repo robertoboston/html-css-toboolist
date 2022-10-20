@@ -15,7 +15,7 @@ body{
 
 .logo{
     vertical-align: middle;
-    padding: 10px 25px;
+    padding: 20px 30px;
     height: 100%;
 
 }
@@ -30,7 +30,6 @@ body{
 }
 
 .container1{
-    height: 60px;
     width: 80%;
     margin: 50px auto;
     padding: 10px 80px;
@@ -40,15 +39,21 @@ body{
     border-top-right-radius: 5px;
 }
 
-.button1{
-    background-color: #47adf1;
+.button{
     padding: 10px;
     border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
     border-style: none;
     font-family: 'Roboto', sans-serif;
     color: white;
-
 }
+
+.button1{
+    background-color: #47adf1;
+    border-style: none;
+}
+
+
 
 .button2{
     background-color: white;
@@ -58,7 +63,8 @@ body{
     color: lightgray;
     border: 1px solid lightgray;
     margin-left: 5px;
-}
+} 
+
 
 .container2{
     font-family: 'Roboto', sans-serif;
@@ -82,6 +88,7 @@ ul{
     border: 1px solid green;
     border-radius: 100%;
     margin-right: 20px;
+    padding: 5px 8px;
 }
 
 .xmark{
@@ -89,17 +96,14 @@ ul{
     border: 1px solid red;
     border-radius: 100%;
     margin-right: 20px;
-    margin-top: 10px;
+    padding: 5px 8px;
 }
+
 
 li{
     padding: 15px;
 }
 
-
-.section-space{
-    margin-top: 50px;
-}
 
 .editorial{
     display: inline-block;
@@ -155,8 +159,6 @@ li{
     border-radius: 10px;
     color: white;
     font-size: 10px;
-
-
 
 }
 
